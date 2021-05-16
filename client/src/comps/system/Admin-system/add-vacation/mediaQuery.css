@@ -1,0 +1,25 @@
+@media only screen and (max-width: 728px) {
+    .add-form {
+        width: 100%;
+    }
+    .add-vacation-warp {
+        margin: 90px 0 0 0;
+    }
+    .edit-inputs {
+        -webkit-text-align: center;
+        border-radius: 0px !important;
+    }
+    input[type='text']{
+        background-clip: padding-box;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .add-form {
+        width: 60%;
+    }
+    .edit-inputs {
+        -webkit-text-align: center;
+        border-radius: 0px !important;
+        max-width: 400px;
+    }
+}

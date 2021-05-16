@@ -1,0 +1,37 @@
+.icons {
+    cursor: pointer !important;
+}
+
+.vacation-name span {
+    font-weight: 600;
+}
+
+.user-name {
+    font-weight: 500 !important;
+    color: aqua;
+}
+
+.card-media {
+    height: 0;
+    padding-top: 56.25%;
+}
+
+.card-roots {
+    margin: 20px 1% 20px 1%;
+    min-width: 300px;
+    text-align: center;
+    background-color: rgb(255, 255, 255) !important;
+    width: 29%;
+}
+.card-roots .MuiCardContent-root{
+    font-weight: 700;
+}
+.card-icons-warp{
+    justify-content: space-between;
+}
+.MuiCardContent-root div span{
+    color: darkgray;
+}
+.MuiCardContent-root div {
+    margin: 0 0 10px 0;
+}

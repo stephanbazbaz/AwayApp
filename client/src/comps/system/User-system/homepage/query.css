@@ -1,0 +1,5 @@
+@media only screen and (max-width: 768px) {
+    .vacation-row {
+        justify-content: center;
+    }
+}

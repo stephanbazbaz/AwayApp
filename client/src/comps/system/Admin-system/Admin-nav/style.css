@@ -1,0 +1,79 @@
+.away-com {
+    font-size: 20px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.admin-title {
+    color: white;
+}
+
+.navlinks-warp {
+    display: flex;
+    align-items: inherit;
+}
+
+.admin-nav {
+    border: 1px solid #e2e2e2;
+    border-top: none;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: white;
+    height: 90px;
+    color: black;
+    left: 0;
+}
+
+.admin-nav a {
+    cursor: pointer;
+    color: black;
+    font-weight: 900;
+}
+
+a:hover {
+    color: grey;
+}
+
+.menu-iconn {
+    cursor: pointer;    
+}
+
+.hamburger {
+    text-align: center;
+    z-index: 1;
+    background-color: white;
+    position: absolute;
+    width: 20%;
+    padding: 20px 1% 1% 1%;
+    right: 0;
+    top: 56px;
+}
+
+.hamburger-item span {
+    margin: 0 0 0 10px;
+}
+
+.hamburger-item {
+    text-decoration: none;
+    color: black;
+}
+
+.edit-title {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.navlink {
+    font-size: 29px;
+    margin: 0 3% 0 3%;
+}
+@media only screen and (max-width: 728px) {
+    .navlink {
+        font-size: 19px;
+    }
+}

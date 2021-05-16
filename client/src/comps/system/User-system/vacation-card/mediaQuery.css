@@ -1,0 +1,7 @@
+@media only screen and (max-width: 728px) {
+
+    .card-root{
+        width: -webkit-fill-available;
+        min-width: 0px; 
+    }
+}

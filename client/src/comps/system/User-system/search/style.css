@@ -1,0 +1,83 @@
+.MuiInput-input {
+    text-align: center;
+}
+
+.search-warp {
+    padding: 10px 0 10px 0;
+    margin: 90px 0 0 0;
+    text-align: center;
+}
+
+input[type='date'], input[type='time'] {
+    -webkit-appearance: none;
+    outline: 0;
+}
+
+.cropped {
+    margin: 130px 0 0 0;
+    background-color: white;
+    padding: 30px 0 30px 0;
+    overflow: hidden;
+    border: 1px solid rgb(235, 235, 235);
+}
+
+::placeholder {
+    color: #afafaf;
+}
+
+.search {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    text-align: center;
+    outline: 0;
+    height: 28px;
+    background-color: white;
+    color: black !important;
+    border: 1px #afafaf solid;
+}
+
+.clear {
+    border: 1px #afafaf solid;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px
+}
+
+.date-input {
+    background-color: white;
+    padding: 0 9px 0 9px;
+    height: 30px;
+    border: 1px #afafaf solid;
+    border-left: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(60%);
+}
+
+::-webkit-datetime-edit-month-field  {
+    color: #afafaf;
+}
+
+::-webkit-datetime-edit-day-field {
+    color: #afafaf;
+}
+
+::-webkit-datetime-edit-year-field {
+    color: #afafaf;
+}
+::-webkit-datetime-edit-text { color:  #afafaf; padding: 0 0.3em; }
+.search-btn {
+    font-weight: 800;
+    cursor: pointer;
+    width: 150px;
+    background-color: white;
+    border: 1px #afafaf solid;
+    height: 32px;
+    border-left: none;
+    outline: 0;
+    color:  #afafaf;
+}
+
+.search-btn:hover {
+    color: black;
+}

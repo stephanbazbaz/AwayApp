@@ -1,0 +1,9 @@
+@media only screen and (max-width: 728px) {
+    .admin-nav {
+        height: 60px;
+    }
+    .edit-title {
+        font-weight: 600;
+        font-size: 12px;
+    }
+}

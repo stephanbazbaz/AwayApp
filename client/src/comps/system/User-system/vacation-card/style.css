@@ -1,0 +1,12 @@
+.card-root {
+    background-color: rgb(255, 255, 255) !important;
+    min-width: 300px;
+    width: 30%;
+    margin: 0px 3% 40px 0 !important;
+}
+.followers-num{
+    margin: 0 0px 1px 5px !important;
+}
+.MuiSvgIcon-root{
+    cursor: pointer;
+}

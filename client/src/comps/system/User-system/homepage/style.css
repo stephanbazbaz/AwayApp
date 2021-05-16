@@ -1,0 +1,60 @@
+.card {
+    border: 1px solid black;
+    width: 27%;
+    min-height: 200px;
+    margin: 0px 4% 20px 0;
+    position: relative;
+}
+
+.main {
+    margin: 56px 0 0 0;
+    text-align: center;
+}
+
+.main-title {
+    height: 40px;
+}
+
+.vacation-row {
+    background-color:#fafafa;
+    padding: 40px 0 80px 0;
+    flex-wrap: wrap;
+    width: 104%;
+    display: flex;
+}
+
+.demoObject {
+    -webkit-box-shadow: 5px 5px 15px 3px rgba(0, 0, 0, 0.37);
+    box-shadow: 5px 5px 15px 3px rgba(0, 0, 0, 0.37);
+    background: #FFFFFF;
+}
+
+.home-title {
+    display: flex;
+}
+
+.item {
+    font-size: 24px;
+    color: #00c30f;
+    margin: 0 0 0 9%;
+    position: relative;
+    top: 20px;
+    animation: mymove 7s;
+    animation-iteration-count: infinite;
+}
+
+.away-title {
+    background-repeat: no-repeat;
+    height: 190px;
+    color: #004eff73;
+    margin: 56px 0 0 0;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.bg-image{
+    opacity: 0.5;
+    z-index: 0;
+    width: 100%;
+    margin:  -424px 0px 0px 0;
+}
